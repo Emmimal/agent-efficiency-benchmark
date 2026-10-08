@@ -319,15 +319,23 @@ agent-efficiency-benchmark/
 │   ├── show.py            # turn-by-turn trajectory viewer
 │   └── tasks.py           # ten seeded-bug tasks, reference and wrong fixes, decoys
 ├── tests/
-│   └── test_pipeline.py   # 17 sanity tests
+│   └── test_pipeline.py
+│   └── __init__.py
 ├── results/
-│   ├── sweep/             # 24,000 runs: runs.csv, summary.csv, paired.csv
-│   ├── ablation/          # 14,400 runs
-│   └── heldout/           # 12,000 runs
-├── HELDOUT.md             # pre-registration, results and one post-hoc amendment
-├── CITATION.cff
+│   ├── paired.csv             
+│   ├── runs.csv          
+│   └── summary.csv
+├── results_ablation/
+│   ├── paired.csv             
+│   ├── runs.csv          
+│   └── summary.csv
+├── results_heldout/
+│   ├── paired.csv             
+│   ├── runs.csv          
+│   └── summary.csv            
 ├── LICENSE
-└── pyproject.toml
+├── HELDOUT.md
+└── README.md
 ```
 
 ## Reproducibility
