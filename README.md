@@ -5,7 +5,7 @@ A pure-Python benchmark that measures the hidden work behind passing coding-agen
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen)
-![tests](https://github.com/Emmimal/agent-efficiency-benchmark/actions/workflows/tests.yml/badge.svg)
+
 
 Most coding-agent benchmarks score the end state: did the final patch pass the tests. This one records what happened before that, and keeps two quantities apart:
 
